@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 .container {
@@ -14,6 +15,19 @@
 }
 
 /* UTILITES */
+h5 {
+    font-size: 106%;
+
+}
+p {
+    font-size: 63%;
+    margin-top: 1%;
+ 
+}
+
+.discounted {
+    color: red;
+}
 
 /* PRODUZIONE GRIGLIE */
 .colonna {
@@ -24,6 +38,7 @@
 }
 
 /* INSERZIONE IMMAGINI */
+/* (dandogli il 100% contenitore) */
 
 .img {
     width: 100%;
