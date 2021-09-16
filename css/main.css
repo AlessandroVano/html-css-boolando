@@ -10,5 +10,11 @@
 .container {
         width: 60%;
         margin: 50px auto;
-        background: rgb(238, 221, 221);
+        ;
 }
+
+/* PRODUZIONE GRIGLIE */
+.colonna {
+    display:inline-block ;
+   width: calc(100% / 3);
+   margin: 0% -2px 30px;
