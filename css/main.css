@@ -18,3 +18,17 @@
     display:inline-block ;
    width: calc(100% / 3);
    margin: 0% -2px 30px;
+   padding: 0% 1%;
+}
+
+/* INSERZIONE IMMAGINI */
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+/* SEZIONE DESCRITTIVA DELLE IMMAGINI + PREZZO */
+.text {
+    margin-top: 2%;
+}
