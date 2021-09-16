@@ -1,0 +1,14 @@
+
+/* GENERAL STYLE */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+        width: 60%;
+        margin: 50px auto;
+        background: rgb(238, 221, 221);
+}
