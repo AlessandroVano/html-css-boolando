@@ -46,6 +46,11 @@ p {
     width: 100%;
     display: block;
 }
+/* diamo position relative a card-image così da fare entrare il cuoricino , il prezzo sconto e la sostenibilità all'interno dell'immagine */
+/*  (OGNI ELEMENTO CHE AVRò IN POSITION ABSOLUTE ENTRERà NELLA SEZIONE POSITION RELATIVE */
+.card-image{
+    position: relative;
+}
 
 /* nascondo la seconda immagine */
 .card-image .second-image{
@@ -64,7 +69,43 @@ p {
    display:block ;
 }
 
+/* INSERIMENTO ELEMENTI ALL'INTERNO DELL'IMMAGINE */
+.hearts {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    /* allineo sopra e sotto la grandezza dello sfondo del cuoricino */
+    width: 13%;
+    height: 11%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    background: white   ;
+}
 
+.promo {
+    /* andrà sempre dentro al papà (card-image) */
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    font-size: 12px;
+}
+
+/* in questo modo i due span avranno le stesse peculiarità */
+.promo span {
+    padding: 5px;
+    color: white;
+    font-weight: 550;
+    /* questo fa si che anche se avessimo degli elementi più grossi non escono fuori dall'immagine ma prendono il loro spazio all'interno di essa */
+    display: inline-block;
+}
+
+ .sconto {
+     background: red;
+ }
+ .bedge {
+     background: green;
+ }
 /* SEZIONE DESCRITTIVA DELLE IMMAGINI + PREZZO */
 .text {
     margin-top: 2%;
