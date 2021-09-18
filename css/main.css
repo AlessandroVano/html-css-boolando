@@ -41,12 +41,29 @@ p {
 
 /* INSERZIONE IMMAGINI */
 /* (dandogli il 100% contenitore) */
-
-.img {
+/* selezioo la classe tag e img cosi da poter selezionare tutte le immagini dentro al div .card */
+.card img {
     width: 100%;
-    height: 100%;
     display: block;
 }
+
+/* nascondo la seconda immagine */
+.card-image .second-image{
+    display: none;
+    
+}
+
+/* SWITCH IMMAGINI */
+
+/* seleziono la prima immagine e la faccio scomparire */
+.card-image:hover .first-image{
+    display: none;
+}
+/* inserendo display block nella seconda immagine sempre in hover la faccio comparire appena vado con il mouse nella prima immagine */
+.card-image:hover .second-image{
+   display:block ;
+}
+
 
 /* SEZIONE DESCRITTIVA DELLE IMMAGINI + PREZZO */
 .text {
@@ -55,18 +72,10 @@ p {
 
 /* INSERIMENTO SCONTI NELLE IMMAGINI */
 
-.colonna1 {
-    position: relative;
-}
 
 
 
 
-    
-
-
-
-/* switch immagini */
 
 
  
