@@ -63,7 +63,16 @@ p {
     left: 0;
     color: white;
     background: red;
+}
 
-     
+.sostenibilità {
+    position: absolute;
+    left: 42px;
+    bottom:4%;
+    color: white;
+    background: green;
+    
+
+}
 
  
