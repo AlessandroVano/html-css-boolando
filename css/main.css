@@ -26,9 +26,7 @@ p {
  
 }
 
-.discounted {
-    color: red;
-}
+
 
 /* PRODUZIONE GRIGLIE */
 .colonna {
@@ -111,7 +109,14 @@ p {
     margin-top: 2%;
 }
 
-/* INSERIMENTO SCONTI NELLE IMMAGINI */
+.prezzo  {
+    color: red;
+    font-size: 66%;
+}
+.prezzo-originale {
+    font-size: 66%;
+}
+
 
 
 
